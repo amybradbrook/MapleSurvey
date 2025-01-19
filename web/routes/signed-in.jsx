@@ -24,7 +24,7 @@ export default function () {
   
   	// Insert code here that redirects user to OAuth Dialog url
   }
-  //oauth_dialog("hVfbmWdzSYSzexMO8x5lMw", "https://www.surveymonkey.com");
+
   return user ? (
     
     <> 
