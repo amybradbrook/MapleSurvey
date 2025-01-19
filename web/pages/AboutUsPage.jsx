@@ -12,50 +12,58 @@ const AboutUsPage = () => {
     <>
       <NavBar />
       <div className="about-container">
-        <h1 className="about-heading">Meet Our Team</h1>
+        <h1 className="about-heading">Meet Our Team!</h1>
         <div className="team-grid">
           <div className="team-card">
             <img 
-              src = {Image}
-              alt="Sarah Johnson"
+              src = {Image1}
+              alt="Amy Bradbrook"
               className="team-image"
             />
             <div className="team-info">
-              <h2 className="team-name">Sarah Johnson</h2>
-              <p className="team-description">Lead Developer with 10 years of experience in web applications and a passion for creating intuitive user experiences.</p>
+              <br></br>
+              <h2 className="team-name">Amy Bradbrook</h2>
+              <br></br>
+              <p className="team-description">Hi, I'm Amy! I'm a 4th year computer science student at the University of Ottawa! A fun fact about me is I love painting!</p>
             </div>
           </div>
           <div className="team-card">
             <img 
               src= {Image2}
-              alt="Michael Chen"
+              alt="Katie Lonsway"
               className="team-image"
             />
             <div className="team-info">
-              <h2 className="team-name">Michael Chen</h2>
-              <p className="team-description">Product Designer specializing in user research and interface design, focusing on creating accessible and beautiful applications.</p>
+              <br></br>
+              <h2 className="team-name">Katie Lonsway</h2>
+              <br></br>
+              <p className="team-description">Im Katie, im a 3rd year computer science studend at uOttawa and a fun fact about me is this photo is too zomed in!</p>
             </div>
           </div>
           <div className="team-card">
             <img 
-              src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e"
-              alt="Emma Davis"
+              src= {Image3}
+              alt="Shay Sheibani"
               className="team-image"
             />
             <div className="team-info">
-              <h2 className="team-name">Emma Davis</h2>
-              <p className="team-description">Frontend Developer with expertise in React and modern JavaScript frameworks, dedicated to writing clean, maintainable code.</p>
+              <br></br>
+              <h2 className="team-name">Shay Sheibani</h2>
+              <br></br>
+              <p className="team-description">Hi, I'm Shay. I'm a second year computer science student at the University of Ottawa! my fun fact is I like working out with my friends!</p>
             </div>
           </div>
           <div className="team-card">
             <img 
-              src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
-              alt="David Wilson"
+              src= {Image4}
+              alt="Jad Kreit"
               className="team-image"
             />
             <div className="team-info">
-              <h2 className="team-name">David Wilson</h2>
-              <p className="team-description">Full Stack Developer specializing in database design and API development, with a focus on scalable solutions.</p>
+              <br></br>
+              <h2 className="team-name">Jad Kreit</h2>
+              <br></br>
+              <p className="team-description">Hello! I'm Jad, and I'm a 2nd year Software Engineering studen. Fun Fact: I play the Violiona and do some art on Blender!</p>
             </div>
           </div>
         </div>

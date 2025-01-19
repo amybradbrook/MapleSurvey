@@ -56,7 +56,7 @@ export function NavBar() {
             key={to} 
             to={to}
             style={{
-              color: (location.pathname === to || location.hash === to) ? '#2563eb' : '#4b5563',
+              color: (location.pathname === to || location.hash === to) ? '#333' : '#333',
               textDecoration: 'none',
               fontWeight: 500
             }}

@@ -1,7 +1,7 @@
 .about-us-page {
   min-height: 100vh;
   padding: 2rem;
-  background-color: rgba(75, 117, 49, 0.1);
+  background-color: rgba(75, 117, 49, 0.05);
 }
 
 .team-grid {
@@ -58,9 +58,10 @@
   line-height: 1.5;
 }
 
-.page-title {
+ 
+.about-heading {
   text-align: center;
   font-size: 2.5rem;
   color: #333;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
