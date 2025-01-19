@@ -1,0 +1,93 @@
+.userProfileMenu-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease, visibility 200ms ease;
+}
+
+.userProfileMenu-backdrop.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.userProfileMenu-container {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition: opacity 200ms ease, transform 200ms ease, visibility 200ms ease;
+}
+
+.userProfileMenu-container.open {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.userProfileMenu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.userProfileMenu-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: #666;
+  transition: color 200ms ease;
+}
+
+.userProfileMenu-close:hover {
+  color: #333;
+}
+
+.userProfileMenu-content {
+  padding: 16px;
+}
+
+.userProfileMenu-userInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.userProfileMenu-userInfo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userProfileMenu-signOut {
+  width: 100%;
+  padding: 12px;
+  background-color: #f3f4f6;
+  border: none;
+  border-radius: 6px;
+  color: #374151;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
+
+.userProfileMenu-signOut:hover {
+  background-color: #e5e7eb;
+}
