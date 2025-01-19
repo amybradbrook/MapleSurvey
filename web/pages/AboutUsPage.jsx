@@ -11,7 +11,7 @@ const AboutUsPage = () => {
   return (
     <>
       <NavBar />
-      <div className="about-container">
+      <div className="about-container about-us-page">
         <h1 className="about-heading">Meet Our Team!</h1>
         <div className="team-grid">
           <div className="team-card">
